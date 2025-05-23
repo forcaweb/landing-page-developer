@@ -1,0 +1,75 @@
+.body-custom{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1140px;
+    height: min-content;
+    overflow: visible;
+    flex: 1 0 0px;
+    gap: 40px;
+    padding: 30px;
+
+    & .perfil{
+        height: min-content;
+        width: min-content;
+        overflow: hidden;
+        position: sticky;
+        top: 0;
+        padding: 30px;
+        background-color: var(--white);
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+
+        & img{
+            width: 270px;
+            height: 270px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        & h2{
+            font-size: 25px;
+            font-weight: 800;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        & p{
+            font-size: 15px;
+            font-weight: 500;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        & .sociais{
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--black);
+            padding: 10px;
+            border-radius: 15px;
+            gap: 15px;
+
+            & a{
+                color: var(--white);
+                font-size: 19px;
+                transition: 0.4s ease-in-out all;
+            }
+
+            & a:hover{
+                color: var(--purple);
+            }
+        }
+    }
+    & .developer-data{
+        height: min-content;
+        width: min-content;
+    }
+}
