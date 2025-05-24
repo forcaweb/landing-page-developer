@@ -16,7 +16,7 @@
     --green: #049827;
     --red: #dd0202;
     --purple: #b804a0;
-    --white-silver: #cac7c9;
+    --white-silver: #8b8b8b;
     --pink: #ea049d;
     --yellow: #f7e200;
 }
@@ -26,4 +26,5 @@ body, html{
     display: block;
     min-height: 100vh;
     background-color: var(--black);
+    scroll-behavior: smooth;
 }
