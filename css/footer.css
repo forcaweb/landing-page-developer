@@ -1,0 +1,15 @@
+.footer-custom{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: var(--white);
+    background-color: var(--black-silver);
+
+    & a{
+        color: var(--yellow);
+        font-weight: 600;
+    }
+}

@@ -14,6 +14,7 @@
     --white: #ffffff;
     --grey: #e3e3e3;
     --green: #049827;
+    --green-clean: #03be2f;
     --red: #dd0202;
     --purple: #b804a0;
     --white-silver: #8b8b8b;
@@ -27,4 +28,49 @@ body, html{
     min-height: 100vh;
     background-color: var(--black);
     scroll-behavior: smooth;
+}
+
+.whatsapp-container{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: var(--green);
+    color: var(--white);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 7px;
+    animation: effectwts 1s infinite;
+
+    & svg{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.whatsapp-container:hover{
+    animation: none;
+    background-color: var(--green-clean);
+}
+
+@keyframes effectwts {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(3px);
+    }
+    70%{
+        transform: translateY(0px);
+    }
+    85%{
+        transform: translateY(3px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }
