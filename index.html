@@ -4,14 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Diego Brito - Desenvolvedor Web</title>
+    <meta
+      name="description"
+      content="Olá, me chamo Diego Brito, sou programador e desenvolvedor web e aplicativos Android e IOS."
+    />
+    <meta
+      property="og:description"
+      content="Olá, me chamo Diego Brito, sou programador e desenvolvedor web e aplicativos Android e IOS."
+    />
+    <meta property="og:determiner" content="Força Web" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Diego Brito - Desenvolvedor Web" />
+    <meta
+      property="og:video"
+      content="https://www.youtube.com/watch?v=_EVJDoS6WNQ"
+    />
+
+    <meta property="og:image" content="./img/foto.jpg" />
+    <meta property="og:image:secure_url" content="./img/foto.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="300" />
+    <meta
+      property="og:image:alt"
+      content="Me chamo Diego Brito Programador Web"
+    />
     <link
       rel="shortcut icon"
       href="https://forum.forcaweb.net/data/assets/logo/logorendodo.png"
       type="image/x-icon"
     />
     <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/material-icons/iconfont/material-icons.min.css"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -39,8 +65,14 @@
               <span class="poupup-menu"> Home </span>
             </li>
             <li>
-              <a href="#projects" class="material-icons">coffee</a>
-              <span class="poupup-menu"> Projetos </span>
+              <a href="#projects-desktop" class="material-icons"
+                >desktop_windows</a
+              >
+              <span class="poupup-menu"> Projetos desktop</span>
+            </li>
+            <li>
+              <a href="#projects-mobile" class="material-icons">android</a>
+              <span class="poupup-menu"> Projetos mobile</span>
             </li>
             <li>
               <a href="#habilidades" class="material-icons">code</a>
@@ -120,16 +152,16 @@
             </div>
           </div>
 
-          <div class="title-custom active-scroll" id="projects">
+          <div class="title-custom active-scroll" id="projects-desktop">
             <h2>
               <span class="top-title">Projetos</span>
-              <span class="bottom-title">Recentes</span>
+              <span class="bottom-title"> Desktop recentes</span>
             </h2>
           </div>
 
           <div class="projects active-scroll">
             <div class="projects-list">
-              <a href="#">
+              <a href="https://tecbioif.com.br">
                 <img
                   src="./img/tecbioif-br.png"
                   alt="Tecbio IF"
@@ -144,7 +176,7 @@
               </a>
             </div>
             <div class="projects-list">
-              <a href="#">
+              <a href="https://61esportes.com.br">
                 <img
                   src="./img/61esportes.png"
                   alt="61 Esportes"
@@ -159,23 +191,23 @@
               </a>
             </div>
             <div class="projects-list">
-              <a href="#">
+              <a href="https://centraldpc.com.br">
                 <img
-                  src="./img/centraldpc.png"
-                  alt="Central dos perfumes e cosméticos"
-                  title="Central dos perfumes e cosméticos"
+                  src="./img/pousada-agape.png"
+                  alt="Pousada Ágape"
+                  title="Pousada Ágape"
                   width="512"
                   height="512"
                 />
                 <div class="text">
-                  <h3>Central dos perfumes e cosméticos</h3>
-                  <p>Loja de perfumaria</p>
+                  <h3>Pousada Ágape</h3>
+                  <p>Pousada e Hotel</p>
                 </div>
               </a>
             </div>
 
             <div class="projects-list">
-              <a href="#">
+              <a href="https://eletropontorn.com.br">
                 <img
                   src="./img/eletropontorn.png"
                   alt="Eletroponto RN"
@@ -191,7 +223,7 @@
             </div>
 
             <div class="projects-list">
-              <a href="#">
+              <a href="https://lresportivos.com.br">
                 <img
                   src="./img/lresportivos.png"
                   alt="LR Artigos Esportivos"
@@ -202,6 +234,48 @@
                 <div class="text">
                   <h3>LR Artigos Esportivos</h3>
                   <p>Loja de artigos esportivos</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="title-custom active-scroll" id="projects-mobile">
+            <h2>
+              <span class="top-title">Projetos</span>
+              <span class="bottom-title">Mobile recentes</span>
+            </h2>
+          </div>
+
+          <div class="projects active-scroll">
+            
+            <div class="projects-list">
+              <a href="https://play.google.com/store/apps/details?id=net.forcaweb.dev">
+                <img
+                  src="./img/aplicativo-mobile-dados-brasil.jpeg"
+                  alt="Aplicativo Dados Brasil"
+                  title="Aplicativo Dados Brasil"
+                  width="512"
+                  height="512"
+                />
+                <div class="text">
+                  <h3>Aplicativo Dados Brasil</h3>
+                  <p>Aplicativos de informações empresarial e pessoal</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="projects-list">
+              <a href="https://vilelaseg.com.br/home">
+                <img
+                  src="./img/aplicativo-mobile-seguranca.jpeg"
+                  alt="Aplicativo de segurança eletrônica"
+                  title="Aplicativo de segurança eletrônica"
+                  width="512"
+                  height="512"
+                />
+                <div class="text">
+                  <h3>Aplicativo de segurança eletrônica</h3>
+                  <p>captura e notifica uma carro que passa nas cameras de segurança</p>
                 </div>
               </a>
             </div>
@@ -394,5 +468,55 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script>
     <script src="./js/effect-scroll.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-17119322492"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "AW-17119322492");
+    </script>
+
+    <!-- Event snippet for Compra conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof url != "undefined") {
+            window.location = url;
+          }
+        };
+        gtag("event", "conversion", {
+          send_to: "AW-17119322492/B1GJCOXdkc4aEPzCkOM_",
+          value: 1.0,
+          currency: "BRL",
+          transaction_id: "",
+          event_callback: callback,
+        });
+        return false;
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-B0WEGEQTXE"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-B0WEGEQTXE");
+    </script>
   </body>
 </html>
