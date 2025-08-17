@@ -1,3 +1,9 @@
+<?php
+  $version = 2;
+  $num_wts = "559981094763";
+  $num_formated = "(99) 9 8109-4763";
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
@@ -32,27 +38,27 @@
     />
     <link
       rel="shortcut icon"
-      href="https://forum.forcaweb.net/data/assets/logo/logorendodo.png"
+     href="https://forum.forcaweb.net/data/assets/logo/logorendodo.png"
       type="image/x-icon"
     />
     <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+     href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
-    <link rel="stylesheet" href="./css/global.css" />
-    <link rel="stylesheet" href="./css/header-menu.css" />
-    <link rel="stylesheet" href="./css/body-custom.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/global.css?v=<?= $version ?>" />
+    <link rel="stylesheet" href="./css/header-menu.css?v=<?= $version ?>" />
+    <link rel="stylesheet" href="./css/body-custom.css?v=<?= $version ?>" />
+    <link rel="stylesheet" href="./css/footer.css?v=<?= $version ?>" />
   </head>
   <body>
     <main class="container">
@@ -96,7 +102,7 @@
       <section class="body-custom">
         <div class="perfil">
           <img
-            src="./img/foto.jpg"
+            src="./img/foto.jpg?v=<?= $version ?>"
             alt="Diego Brito"
             title="Diego Brito"
             width="640"
@@ -105,19 +111,19 @@
           <h2>Diego Brito</h2>
           <p>Desenvolvedor web e aplicação ANDROID/IOS.</p>
           <div class="sociais">
-            <a href="https://www.facebook.com/diegobritofw"
+            <a target="_blank" href="https://www.facebook.com/diegobritofw"
               ><i class="fa-brands fa-facebook"></i
             ></a>
-            <a href="https://www.instagram.com/diegobtofc/"
+            <a target="_blank" href="https://www.instagram.com/diegobtofc/"
               ><i class="fa-brands fa-instagram"></i
             ></a>
-            <a href="https://www.youtube.com/@forcaweb"
+            <a target="_blank" href="https://www.youtube.com/@forcaweb"
               ><i class="fa-brands fa-youtube"></i
             ></a>
-            <a href="https://wa.me/8496980479"
+            <a target="_blank" href="https://wa.me/<?= $num_wts ?>"
               ><i class="fa-brands fa-whatsapp"></i
             ></a>
-            <a href="https://github.com/forcaweb"
+            <a target="_blank" href="https://github.com/forcaweb"
               ><i class="fa-brands fa-github"></i
             ></a>
           </div>
@@ -161,7 +167,7 @@
 
           <div class="projects active-scroll">
             <div class="projects-list">
-              <a href="https://tecbioif.com.br">
+              <a target="_blank" href="https://tecbioif.com.br">
                 <img
                   src="./img/tecbioif-br.png"
                   alt="Tecbio IF"
@@ -176,7 +182,7 @@
               </a>
             </div>
             <div class="projects-list">
-              <a href="https://61esportes.com.br">
+              <a target="_blank" href="https://61esportes.com.br">
                 <img
                   src="./img/61esportes.png"
                   alt="61 Esportes"
@@ -191,7 +197,7 @@
               </a>
             </div>
             <div class="projects-list">
-              <a href="https://centraldpc.com.br">
+              <a target="_blank" href="https://centraldpc.com.br">
                 <img
                   src="./img/pousada-agape.png"
                   alt="Pousada Ágape"
@@ -207,7 +213,7 @@
             </div>
 
             <div class="projects-list">
-              <a href="https://eletropontorn.com.br">
+              <a target="_blank" href="https://eletropontorn.com.br">
                 <img
                   src="./img/eletropontorn.png"
                   alt="Eletroponto RN"
@@ -223,7 +229,7 @@
             </div>
 
             <div class="projects-list">
-              <a href="https://lresportivos.com.br">
+              <a target="_blank" href="https://lresportivos.com.br">
                 <img
                   src="./img/lresportivos.png"
                   alt="LR Artigos Esportivos"
@@ -249,7 +255,7 @@
           <div class="projects active-scroll">
             
             <div class="projects-list">
-              <a href="https://play.google.com/store/apps/details?id=net.forcaweb.dev">
+              <a target="_blank" href="https://play.google.com/store/apps/details?id=net.forcaweb.dev">
                 <img
                   src="./img/aplicativo-mobile-dados-brasil.jpeg"
                   alt="Aplicativo Dados Brasil"
@@ -265,7 +271,7 @@
             </div>
 
             <div class="projects-list">
-              <a href="https://vilelaseg.com.br/home">
+              <a target="_blank" href="https://vilelaseg.com.br/home">
                 <img
                   src="./img/aplicativo-mobile-seguranca.jpeg"
                   alt="Aplicativo de segurança eletrônica"
@@ -433,17 +439,17 @@
           <div class="list-urls active-scroll">
             <ul>
               <li>
-                <a href="#"
+                <a href="mailto:dihhbrito@hotmail.com"
                   ><i class="fa-solid fa-envelope"></i> dihhbrito@hotmail.com</a
                 >
               </li>
               <li>
-                <a href="https://wa.me/8496980479"
-                  ><i class="fa-brands fa-whatsapp"></i> (84) 9 9698-0479</a
+                <a target="_blank" href="https://wa.me/<?= $num_wts ?>"
+                  ><i class="fa-brands fa-whatsapp"></i> <?= $num_formated ?></a
                 >
               </li>
               <li>
-                <a href="https://www.instagram.com/diegobtofc/"
+                <a target="_blank" href="https://www.instagram.com/diegobtofc/"
                   ><i class="fa-brands fa-instagram"></i> @diegobtofc</a
                 >
               </li>
@@ -456,13 +462,13 @@
       <footer class="footer-custom">
         <p>
           Todos os direitos reservados a
-          <a href="https://forcaweb.net">Força Web</a>.
+          <a target="_blank" href="https://forcaweb.net">Força Web</a>. CNPJ: 36.301.087/0001-84.
         </p>
       </footer>
       <!--End footer-->
     </main>
 
-    <a class="whatsapp-container" href="https://wa.me/8496980479">
+    <a class="whatsapp-container" target="_blank" href="https://wa.me/<?= $num_wts ?>">
       <i class="fa-brands fa-whatsapp"></i>
     </a>
 
